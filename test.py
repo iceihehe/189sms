@@ -15,5 +15,5 @@ r = ac.grant_access_token()
 access_token = r['access_token']
 r = ac.get_token()
 token = r['token']
-r = ac.send_randcode(token, 'http://weixin.cnlwmy.com/weishequ/', '13808099842')
+r = ac.send_randcode(token, 'http://weixin.cnlwmy.com/wx2102221b928b1121/callback', '13808099842')
 print(r)

@@ -29,7 +29,6 @@ class AuthCode(object):
         )
         r.raise_for_status()
         response_json = r.json()
-        print('request.body: ', r.request.body)
 
         return response_json
 
